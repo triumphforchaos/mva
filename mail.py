@@ -27,6 +27,6 @@ email_req = sess.post('http://anonymouse.org/cgi-bin/anon-email.cgi', headers={
 })
 
 if 'The e-mail has been sent' in email_req.text:
-    cprint("[*] EMAIL HAS BEEN SENT" 'red')
+    cprint("[*] YOUR EMAIL HAS BEEN SENT ENJOY ;)" 'red')
     cprint("[*] for more privacy brought to you by triumph for chaos the email will be sent in 12 hours " 'red')
  
