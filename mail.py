@@ -2,7 +2,7 @@ import requests
 import sys
 from termcolor import colored, cprint 
   
-cprint("\nAnonymous Email by anonymouse.org" 'green')
+cprint("\nAnonymous Email via anonymouse.org" 'green')
 cprint("made by triumphforchaos" 'green')
 to = raw_input('to: ')
 subject = raw_input('insert subject: ')
