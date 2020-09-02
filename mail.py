@@ -1,7 +1,11 @@
 import requests
 import sys
 from termcolor import colored, cprint 
-  
+cprint("            |", 'blue')
+cprint("////////////|---------------------------------,", 'red')
+cprint("`^^^^^^^^^^^|--------------------------------/", 'red')
+cprint("            |", 'blue')
+	
 cprint("\nAnonymous Email via anonymouse.org", 'green')
 cprint("made by triumphforchaos", 'green')
 to = raw_input('to: ')
