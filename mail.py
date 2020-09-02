@@ -2,8 +2,8 @@ import requests
 import sys
 from termcolor import colored, cprint 
   
-cprint("\nAnonymous Email via anonymouse.org" 'green')
-cprint("made by triumphforchaos" 'green')
+cprint("\nAnonymous Email via anonymouse.org", 'green')
+cprint("made by triumphforchaos", 'green')
 to = raw_input('to: ')
 subject = raw_input('insert subject: ')
 message = raw_input('insert message: ')
@@ -27,6 +27,6 @@ email_req = sess.post('http://anonymouse.org/cgi-bin/anon-email.cgi', headers={
 })
 
 if 'The e-mail has been sent' in email_req.text:
-    cprint("[*] YOUR EMAIL HAS BEEN SENT ENJOY ;)" 'red')
-    cprint("[*] for more privacy brought to you by triumph for chaos the email will be sent in 12 hours " 'red')
+    cprint("[*] YOUR EMAIL HAS BEEN SENT ENJOY ;)", 'red')
+    cprint("[*] for more privacy brought to you by triumph for chaos the email will be sent in 12 hours ", 'red')
  
